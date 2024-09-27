@@ -24,7 +24,7 @@ ul{
     justify-content:right;
 }
 li a{
-
+    text-decoration: none;
     margin-right: 10rem;
 }
 main{
@@ -70,6 +70,25 @@ section{
 section p{
     width: 40rem;
 }
+
+
+.section-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+.projects-grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.projects {
+    background-color: #ffffff;
+    border: 2px solid #0A1172;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 nav a:hover{
     color: #33CC99;
 }
