@@ -70,4 +70,7 @@ section{
 section p{
     width: 40rem;
 }
+nav a:hover{
+    color: #33CC99;
+}
 
